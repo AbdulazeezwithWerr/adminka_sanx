@@ -1,0 +1,128 @@
+.Home {
+    display: flex;
+
+    .h_l {
+        width: 20%;
+    }
+
+    .h_r {
+        width: 80%;
+        background-color: rgb(20, 27, 45);
+        padding: 18px;
+    }
+}
+
+.Navbar {
+    padding: 18px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: 0.5px solid #e6e3e3;
+    background: rgb(31, 42, 64);
+
+    .nav_logo {
+        margin-bottom: 32px;
+        color: #fff;
+    }
+
+    .nav_h {
+        color: rgb(163, 163, 163);
+        font-weight: 700;
+        margin-bottom: 6px;
+        margin-top: 6px;
+    }
+
+    .nav_l {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #adadad;
+        text-decoration: none;
+        min-height: 32px;
+        transition: 0.4s;
+
+        &:hover {
+            color: rgb(134, 141, 251);
+        }
+    }
+}
+
+.Driver,
+.Dashboard {
+    .dr_name_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .dr_name {
+            font-size: 32px;
+            line-height: 1.2;
+            color: rgb(224, 224, 224);
+            font-weight: 700;
+        }
+
+        .dr_name_add {
+            color: rgb(61, 165, 138);
+            border: 1px solid rgb(61, 165, 138);
+            border-radius: 8px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            cursor: pointer;
+        }
+    }
+
+    .dr_table {
+        margin-top: 32px;
+        border: 1px solid rgb(81, 81, 81);
+        border-radius: 8px;
+        overflow: hidden;
+
+        .dr_tab_top,
+        .dr_tab_main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(62, 67, 150);
+            border-bottom: 1px solid rgb(81, 81, 81);
+
+            .dr_tab_top_h {
+                width: 100%;
+                padding: 6px;
+                min-height: 42px;
+                display: flex;
+                align-items: center;
+                border-left: 1px solid rgb(81, 81, 81);
+                color: #fff;
+
+                &:first-child {
+                    border: none;
+                }
+            }
+
+            .dr_tab_top_h_1 {
+                width: 10%;
+            }
+        }
+
+        .dr_tab_main {
+            background-color: rgb(31, 42, 64);
+        }
+    }
+}
+
+
+.Dashboard{
+
+.dash_card_box{
+    .dash_card{
+        
+    }
+}
+
+}
